@@ -141,37 +141,37 @@
 
   <!-- Banner -->
   <section class="main-banner-section">
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li class="item1 active"></li>
-    <li class="item2"></li>
-    <li class="item3"></li>
-  </ul>
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="covenantGreetings.png" alt="Los Angeles"  height="500" style="width: 100%;">
+      <!-- Indicators -->
+       <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="covenantGreetings.png" alt="Los Angeles"  height="500" style="width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="chicago.jpg" alt="Chicago"  height="500" style="width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="ny.jpg" alt="New York"  height="500" style="width: 100%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
-    <div class="carousel-item">
-      <img src="chicago.jpg" alt="Chicago"  height="500" style="width: 100%;">
-    </div>
-    <div class="carousel-item">
-      <img src="ny.jpg" alt="New York"  height="500" style="width: 100%;">
-    </div>
-  </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#myCarousel">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#myCarousel">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-  </section>
+</section>
   <!-- /End Banner -->
 
   <!-- Next-Events-Sermons -->

@@ -5,7 +5,7 @@ $(document).ready(function () {
     
     
     var clock = $('.clock').FlipClock({
-        clockFace: 'DailyCounter'
+        clockFace: 'HourlyCounter'
     });
 
 

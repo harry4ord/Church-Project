@@ -6,7 +6,7 @@ $(document).ready(function () {
     
     var currentDate = new Date();
         
-    var targetDate = new Date('2019-11-10');
+    var targetDate = new Date('2019-11-17');
     var diff = targetDate.getTime() / 1000 - currentDate.getTime() / 1000;
     clock = $('.clock').FlipClock( diff, {
         clockFace: 'HourlyCounter',

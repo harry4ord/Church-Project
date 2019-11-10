@@ -295,5 +295,13 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-1
-Downloading1
+.pt-100{
+    padding-top: 100px
+}
+.mh-250{
+    min-height: 300px
+}
+.gradient-bg{
+    background: rgb(182,16,23);
+background: linear-gradient(164deg, rgba(182,16,23,1) 0%, rgba(189,24,24,1) 51%, rgba(130,2,12,1) 86%);
+}
